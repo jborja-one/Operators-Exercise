@@ -31,3 +31,12 @@
         }
     }
 }
+
+//Tough Exercise
+//int i = 3;
+//int j = 4;
+//int k = ++i * j++
+
+//I think the answer is 16, because:
+//prefix will increment i's value by one as soon as the code reaches it, and j++ will increment on the next loop (the next time it is run),
+//by that thought, it would be 4 * 4, which will be 16.
